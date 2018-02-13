@@ -1,0 +1,33 @@
+{
+  "name": "nanogist",
+  "version": "1.0.0",
+  "description": "Isomorphic gist client",
+  "license": "MIT",
+  "repository": "herber/nanogist",
+  "author": {
+    "name": "Tobias Herber",
+    "email": "tobihrbr@gmail.com",
+    "url": "tobihrbr.com"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "test": "formatted"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gist",
+    "github",
+    "api",
+    "client"
+  ],
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "formatted": "^1.0.0"
+  }
+}
